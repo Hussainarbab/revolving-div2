@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background-color: rgb(24, 20, 20);
+}
+
+.divv {
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 20%;
+    padding: 60px 0;
+    background-color: rgba(62, 12, 12, 0.831);
+    color: black;
+    border-radius: 50%;
+    border: 3px solid blueviolet;
+    box-shadow: 1px 1px 5px 10px rgb(132, 48, 206);
+    cursor: pointer;
+    color: white;
+    
+    display: inline-block; 
+    
+    animation: revolve 5s linear infinite;
+}
+
+.divv:hover {
+    background: linear-gradient(60deg, blue, red, yellow, green, orangered);
+    color: black;
+    border-color: crimson;
+    box-shadow: 1px 1px 5px 15px rgb(48, 206, 82);
+}
+
+/* Keyframes for revolving effect */
+@keyframes revolve {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
